@@ -1,0 +1,5 @@
+.button {
+    /* Custom style example */
+    border-color: var(--foreground);
+    color: var(--foreground);
+  }

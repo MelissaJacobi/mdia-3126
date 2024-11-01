@@ -1,0 +1,42 @@
+/* Container for the main layout */
+.container {
+    margin: 2rem;
+  }
+  
+  /* ArtDisplay section styling */
+  .artDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  /* Individual ArtCard styling */
+  .artCard {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Image styling */
+  .artCard img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Breakpoint for smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      margin: 1rem;
+    }
+  
+    .artDisplay {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .artCard {
+      max-width: 100%;
+    }
+  }
+  
