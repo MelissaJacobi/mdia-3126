@@ -1,4 +1,4 @@
-import Home from "./Components/Templates/Home";
+import Home from "../Components/Templates/Home";
 
 export default function IndexPage() {
   return <Home />;
